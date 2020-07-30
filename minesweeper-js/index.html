@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MineSweeper</title>
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-hint">
+        <p>Left-click to unveil | Right-click to place 🚩</p>
+        <button onclick="window.location.reload();">Reset</button>
+      </div>
+      <div class="grid"></div>
+      <div>Flags left: <span id="flags-left"></span></div>
+      <div id="result"></div>
+    </div>
+  </body>
+</html>
